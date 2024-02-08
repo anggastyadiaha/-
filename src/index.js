@@ -19,7 +19,7 @@ import FetchScreen from "./screens/Networking/Fetch"
 /*Challenge A */
 import HomeScreenChallengeA from "./screens/ChallengeA/HomeScreenChallengeA";
 import TopUpScreen from "./screens/ChallengeA/TopUpScreen";
-
+import Additional from "./screens/ChallengeA/Additional";
 
 const Stack = createStackNavigator();
 
@@ -44,6 +44,7 @@ export default function AppSrc() {
             <Stack.Screen name="Fetch" options={{}} component={FetchScreen} />
             <Stack.Screen name="HomeScreenChallengeA" options={{}} component={HomeScreenChallengeA} />
             <Stack.Screen name="TopUpScreen" options={{}} component={TopUpScreen} />
+            <Stack.Screen name="Additional" options={{}} component={Additional} />
 
           </Stack.Navigator>
         </NavigationContainer>

@@ -4,7 +4,7 @@ import { StyleSheet, Text, TouchableOpacity, View, Image, color } from "react-na
  
 export default function HomeScreenChallengeA  ({name,balance, navigation}) {
     name = "Anggas";
-    balance = 0;
+    balance = 120000;
         return(
             /**Card */
             <View> 

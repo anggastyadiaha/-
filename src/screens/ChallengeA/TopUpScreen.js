@@ -2,7 +2,7 @@ import React from "react";
 import { StyleSheet, Text, TouchableOpacity, View, Image, color } from "react-native"; 
 import { TextInput } from "react-native-gesture-handler";
 
-export default function TopUpScreen  () {
+export default function TopUpScreen  ({navigation}) {
     return(
     <View>
         <View style={styles.container}>  
@@ -11,7 +11,7 @@ export default function TopUpScreen  () {
         </View>
                 
         <TouchableOpacity style={{ backgroundColor: "#5ABFDD", justifyContent:"absolute", width:100,
-         borderRadius:10,marginTop:5, left:150, padding:10}} onPress={() => navigation.navigate("TopUpScreen")}>
+         borderRadius:10,marginTop:5, left:150, padding:10}} onPress={() => navigation.navigate("Additional")}>
         <Text style={{ textAlign: "center", color: "white" }}>
                     Top Up
         </Text>
