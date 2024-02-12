@@ -31,6 +31,16 @@ const HomeScreen = ({navigation}) =>{
         title="Go to Challege A"
         onPress={() => navigation.navigate('HomeScreenChallengeA')}
       />
+
+      <Button
+        title="redux"
+        onPress={() => navigation.navigate('ReduxConcept')}
+      />
+
+      <Button
+        title="IntegrasiRedux"
+        onPress={() => navigation.navigate('IntegrasiRedux')}
+      />
         </View>
     );
 };

@@ -21,6 +21,9 @@ import HomeScreenChallengeA from "./screens/ChallengeA/HomeScreenChallengeA";
 import TopUpScreen from "./screens/ChallengeA/TopUpScreen";
 import Additional from "./screens/ChallengeA/Additional";
 
+import ReduxConcept from "./screens/ReduxConcept";
+import IntegrasiRedux from "./screens/IntegrasiRedux";
+
 const Stack = createStackNavigator();
 
 export default function AppSrc() {
@@ -45,6 +48,8 @@ export default function AppSrc() {
             <Stack.Screen name="HomeScreenChallengeA" options={{}} component={HomeScreenChallengeA} />
             <Stack.Screen name="TopUpScreen" options={{}} component={TopUpScreen} />
             <Stack.Screen name="Additional" options={{}} component={Additional} />
+            <Stack.Screen name="ReduxConcept" options={{}} component={ReduxConcept} />
+            <Stack.Screen name="IntegrasiRedux" options={{}} component={IntegrasiRedux} />
 
           </Stack.Navigator>
         </NavigationContainer>
